@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.land{
+  
+  background: linear-gradient(to right, rgba(19, 19, 19, 0.5), rgba(77, 78, 83, 0.895)),
+   url('./images/back4.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  scroll-behavior: smooth !important; 
+  background-attachment: fixed;
+  height:100vh;
+
+}
+.about{
+  
+  /* background: linear-gradient(to right, rgba(19, 19, 19, 0.5), rgba(77, 78, 83, 0.895)),
+   url('./images/back5.jpg'); */
+   background-image: url('./images/beach.jpg');;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  scroll-behavior: smooth !important; 
+   background-attachment: fixed;
+  height:57vh;
+
+}
+.domain{
+  
+  /* background: linear-gradient(to right, rgba(19, 19, 19, 0.5), rgba(77, 78, 83, 0.895)),
+   url('./images/back5.jpg'); */
+   background-image: url('./images/back6.jpg');;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  scroll-behavior: smooth !important; 
+   background-attachment: fixed;
+  height:100vh;
+
+}
+.card{
+  background: linear-gradient(to right , rgba(254, 254, 254, 0.945) , rgba(72, 165, 223, 0.5));
+}
+.card1{
+  background: linear-gradient(to right , rgba(254, 254, 254, 0.945) , rgba(178, 60, 233, 0.5));
+}
+.log{
+    
+  background-image:
+ url('./images/work.jpg');
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+scroll-behavior: smooth !important;
+background-attachment: fixed;
+height:100vh;
+
+}
+html{
+  scroll-behavior: smooth;
+}
